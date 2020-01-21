@@ -1,0 +1,88 @@
+@objects
+    body                body
+    header              header
+    top-banner          #top-banner
+    social-icon-*       .social-icon
+    navbar              nav ul
+    navbar-item-1       #navbar-item-1
+    navbar-item-2       #navbar-item-2
+    navbar-item-3       #navbar-item-3
+    navbar-item-4       #navbar-item-4
+    logo                #logo
+    main-heading        .main-heading
+    subheading          .subheading p
+    main-container      #main-container
+    slideshow           .slideshow-full
+    main-text           #main-text-1
+    float-text-box      #float-text-box
+    scattered-pictures  #scattered-pictures
+    free-pic-1          #free-pic-1
+    free-pic-2          #free-pic-2
+    free-pic-3          #free-pic-3
+    footer              footer
+    footer-info         #footer-info
+
+@groups
+    skeleton-elements   header, navbar, main-container, footer
+    navbar-items        navbar-item-1, navbar-item-2, navbar-item-3, navbar-item-4
+    free-pictures       free-pic-1, free-pic-2, free-pic-3
+    social-icons        social-icon-*
+
+= Main section =
+
+    &skeleton-elements:
+        width 100% of body/width
+
+    = Header Section =
+        header:
+            centered horizontally inside screen
+
+        social-icon-3:
+            inside top-banner
+            width 25px
+            visible
+
+        logo:
+            height < 61 px
+            inside navbar
+
+        navbar:
+            below top-banner 0px
+        
+        navbar-item-1:
+            near logo 110px right
+
+        &navbar-items:
+            centered vertically inside navbar
+            css font-size is "16px"
+    
+    = Main Section =
+
+        main-heading:
+            below navbar 30 to 35 px
+            above subheading 30 to 35 px
+            visible
+
+        slideshow:
+            width 79 to 81% of main-container/width
+        
+        main-text:
+            aligned vertically left main-container
+        
+        scattered-pictures:
+            below float-text-box 10 to 20 px
+
+        &free-pictures:
+            width 250px
+
+        free-pic-1:
+            aligned vertically left float-text-box
+        
+        free-pic-2:
+            aligned vertically right float-text-box
+
+        footer-info:
+            text is "The footer of the page, containing some contact information."
+        
+        footer:
+            height 60 to 70 px

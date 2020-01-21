@@ -1,0 +1,235 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+header {
+  width: 100%;
+  margin: 0px auto;
+}
+
+#top-banner {
+  background-image: url(img/daylight-environment-forest-459225.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+}
+
+#top-banner ul {
+  list-style-type: none;
+}
+
+#social-icon-list {
+  display: inline;
+}
+
+#top-banner .social-icon {
+  width: 25px;
+  float: right;
+}
+
+#container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+
+/* #background-image {
+  width: 100%;
+  z-index: -1;
+} */
+
+/* Navbar */
+nav {
+  width: 100%;
+  background: #EEE;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  display: block;
+}
+
+#logo {
+  padding: 0 5px;
+  height: 60px;
+  background: #EEEEEE;
+}
+
+nav ul li a {
+  padding: 0 10px;
+  background: #EEEEEE;
+  color: #303030;
+
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: grey;
+  color: black;
+}
+
+#navbar-item-1 {
+  left: 50px; /* change here */
+}
+
+
+/* for dropdown in nav
+nav ul li a:not(:only-child):after {
+
+} */
+
+/* Headings */
+.main-heading {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: none; /* change here */
+  top: 30px; /* change here */
+}
+
+.subheading {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Slideshow */
+.slideshow-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before { 
+  color:black !important;
+}
+
+.slideshow-images img {
+  width: inherit;
+}
+
+.slideshow-images p {
+  width: inherit;
+  text-align: center;
+}
+
+/* Floating text box (doesn't float on mobile, floating specified for bigger devices) */
+
+#float-text-box {
+  padding: 15px;
+  background: rgb(255, 236, 209);
+  text-align: center;
+}
+
+/* Scattered pictures (responsive positions) */
+
+#scattered-pictures figure {
+  width: 70%;
+  margin: 0 auto 15px;
+}
+
+#scattered-pictures figure img {
+  display: block;
+  margin: 0 auto 5px;
+  width: inherit;
+}
+
+#scattered-pictures figure figcaption {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: rgb(0, 0, 125);
+  color: white;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 2px;
+}
+
+
+/* Responsive: Tablet */
+@media only screen and (min-width: 600px) {
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .subheading {
+    font-size: 1.2rem;
+  }
+
+  .slideshow-full {
+    width: 80%;
+  }
+
+  nav ul {
+    justify-content: space-evenly;
+  }
+}
+
+/* Responsive: Tablet Landscape */
+@media only screen and (min-width: 900px) {
+  #scattered-pictures figure {
+    width: 250px;
+  }
+
+  #free-pic-1 {
+    display: inline-block;
+    margin: 0 !important;
+  }
+
+  #free-pic-2 {
+    float: right;
+
+  }
+
+  #free-pic-3 {
+    position: relative;
+    left: 150px;
+  }
+
+  footer {
+    overflow: hidden;
+  }
+}
+
+/* Responsive: Desktop */
+@media only screen and (min-width: 1200px) {
+
+  .slideshow-full {
+    width: 60%
+  }
+
+  #scattered-pictures figure {
+    width: 50%;
+  }
+
+  #float-text-box {
+    float: right;
+    width: 30%;
+  }
+}
+
+/* Responsive: Large Desktop */
+@media only screen and (min-width: 1800px) {
+
+  body {
+    font-size: 1.1em;
+  }
+
+  #container {
+    width: 60%;
+  }
+}

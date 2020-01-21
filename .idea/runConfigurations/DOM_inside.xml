@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DOM inside" type="Application" factoryName="Application" folderName="Inside" singleton="false">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="EasyPageFix.EasyPageFix" />
+    <module name="EasyPageFix" />
+    <option name="PROGRAM_PARAMETERS" value="./sample_page/test-pages/inside/dom_position/index.html ./sample_page/test-pages/inside/dom_position/index.css ./sample_page/page/ ./sample_page/spec/page.gspec ./fixed_inside_dom/ $PROJECT_DIR$/../Drivers/Chrome/chromedriver.exe 1024 768" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="3_layout_size" type="Application" factoryName="Application" folderName="Mixed" singleton="false">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="EasyPageFix.EasyPageFix" />
+    <module name="EasyPageFix" />
+    <option name="PROGRAM_PARAMETERS" value="./sample_page/page/index.html ./sample_page/test-pages/mixed/3_layout_size/index.css ./sample_page/page/ ./sample_page/spec/page.gspec ./fixed_mixed_layout_size/ $PROJECT_DIR$/../Drivers/Chrome/chromedriver.exe 1024 768" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
