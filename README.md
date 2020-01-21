@@ -26,11 +26,13 @@ In future, it might be possible to re-architect the detection system so it can u
 
 2. Download the tool here (TODO link)
 
-3. Create a local copy of your webpage, with files for HTML, CSS and any others you might have. Make sure all relevant styles are in a single CSS file.
+3. Download the version of [ChromeDriver](https://chromedriver.chromium.org/) that corresponds to your version of Chrome or Chromium.
 
-4. Create a Galen specification for your webpage. Instructions [here](http://galenframework.com/docs/reference-galen-spec-language-guide/)
+4. Create a local copy of your webpage, with files for HTML, CSS and any others you might have. Make sure all relevant styles are in a single CSS file.
 
-5. Run the jar:
+5. Create a Galen specification for your webpage. Instructions [here](http://galenframework.com/docs/reference-galen-spec-language-guide/)
+
+6. Run the jar:
 
    ```
    java -jar EasyPageFix.jar (arguments)
