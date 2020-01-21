@@ -3,7 +3,7 @@
     <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
     <option name="MAIN_CLASS_NAME" value="EasyPageFix.EasyPageFix" />
     <module name="EasyPageFix" />
-    <option name="PROGRAM_PARAMETERS" value="./sample_page/page/index.html ./sample_page/test-pages/visible/incorrect/index.css ./sample_page/page/ ./sample_page/spec/page.gspec ./fixed_visible_incorrect/ $PROJECT_DIR$/../Drivers/Chrome/chromedriver.exe 1024 768" />
+    <option name="PROGRAM_PARAMETERS" value="./sample_page/page/index.html ./sample_page/test-pages/visible/incorrect/index.css ./sample_page/page/ ./sample_page/spec/page.gspec ./fixed_visible_incorrect/ ./drivers/chromedriver.exe 1024 768" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
