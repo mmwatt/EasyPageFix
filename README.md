@@ -74,10 +74,10 @@ In future, it might be possible to re-architect the detection system so it can u
 
 4. You can use one of the built-in run configurations to 'fix' problems with the sample page and specification. Please note, **these may not work fully, and exist to illustrate the tool's limitations**.
 
-   Ensure your ChromeDriver is in the following pathpath:
+   Ensure your ChromeDriver is in the following path:
 
    ```
-   EasyPageFix/Drivers/Chrome/chromedriver.exe
+   EasyPageFix/drivers/chromedriver.exe
    ```
 
    It can be located elsewhere if you are running the tool yourself.
